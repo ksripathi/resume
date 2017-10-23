@@ -1,0 +1,16 @@
+# resume
+* Pre requisites for Ubuntu/Debian
+#+BEGIN_EXAMPLE
+sudo apt-get install texlive-full
+#+END_EXAMPLE
+* Steps
+  1. Clone the repository & change directory
+     #+BEGIN_EXAMPLE
+     git clone https://github.com/ksripathi/resume.git
+     cd resume
+     #+END_EXAMPLE
+  2. Compile the =.tex= files
+     #+BEGIN_EXAMPLE
+     pdflatex resume.tex
+     #+END_EXAMPLE
+  3. Above step(3) should generate =resume.pdf= file
