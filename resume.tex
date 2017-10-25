@@ -1,21 +1,3 @@
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-% Medium Length Professional CV
-% LaTeX Template
-% Version 2.0 (8/5/13)
-%
-% This template has been downloaded from:
-% http://www.LaTeXTemplates.com
-%
-% Original author:
-% Trey Hunner (http://www.treyhunner.com/)
-%
-% Important note:
-% This template requires the resume.cls file to be in the same directory as the
-% .tex file. The resume.cls file provides the resume style used for structuring the
-% document.
-%
-%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
-
 %----------------------------------------------------------------------------------------
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
@@ -49,12 +31,9 @@
 
 \end{rSection}
 
-
 %----------------------------------------------------------------------------------------
 %	PROFESSIONAL SUMMARY
 %----------------------------------------------------------------------------------------
-
-
 
 \begin{rSection}{PROFESSIONAL SUMMARY}
   
@@ -132,15 +111,43 @@
    \begin{rSubsection}
     {International Institute of Information Technology, Hyderabad}{Sep 2014 -
       till date} {VLEAD, Virtual Labs} {Mid-Level Project Engineer (3.3 years)}
+    \hfill \break
     \textbf{Description :} Virtual Labs is a mission mode project funded by
     Ministry of Human Resource Development (MHRD), INDIA. Professors and
     Students from various institutes develop labs based on various courses. Our
     team is central team for all other institute's (IITs and NITs) and we
     provide engeering service like lab life cycle management and hosting
     platform to other teams \\
-    \textbf{Role : }\\
+
+    \textbf{Roles and Responsibilites:}
+    \begin{itemize}
+    \item Build end-to-end micro services on demand for Virtual Labs project
+      needs using literate programing
+    \item Responsible for deploying applications on testing, staging (IIIT-H
+      servers) and production environments (AWS)
+    \item Package mangement using vagrant, docker and VirtualBox
+    \item Configuration of CI/CD tools
+    \item Management of LDAP, DNS records
+    \item Writing database backup, restore and migration scripts
+    \item Maintanance of Github organization repositories and release
+      management
+    \item Maintanance of Network architecture
+    \item Helping team to increase their technical skills to achieve better
+      outcomes
+    \end{itemize}
+
+    \hfill
+
     \textbf{Contributions : }
-    
+    \begin{itemize}
+    \item Implemented Auto Deployment Service for Virtual Labs
+    \item Implemented Web portal for outreach activities
+    \item Implemented several micro services using python's Flask framework
+    \item Contributed for building network architecuture for hosting of Virtual
+      Labs and automated using Anisible tools
+    \item Configured Google OAuth and Mozilla Persona autherization for micro
+      services
+    \end{itemize}
   \end{rSubsection}
 
 \end{rSection}
@@ -152,18 +159,37 @@
 %	PROJECTS
 %----------------------------------------------------------------------------------------
 
-\begin{rSection}{PROJECTS}
+\textbf{PROJECTS}
+\sectionlineskip
+\hrule
+\textbf{College Cloud Platform} \\
+\textbf{Description :} \\
+This project aims to provide the platform through which users can access the
+applications labs without internet connection \\
+\textbf{Technologies Used :} Vagrant, VirtualBox, OpenVZ, Ansible, DNS, DHCP,
+Router, OpenEdx Platform
 
-  \begin{rSubsection}
-    {Building Operating System using LFS}{July 2015 - April 2016}{Major Project}{}
-  \item item1
-  \item item2
-  \item item3
-  \item item4
- 
-  \end{rSubsection} 
+\textbf{Auto Deployment Service} \\
+\textbf{Description :} \\
+This project facilitates continuous deployment for all Virtual Labs \\
+\textbf{Technologies Used :} Python's Tornado framework, REST API, JSON, BOTO library
 
-\end{rSection} 
+\textbf{Analytics Service using ELK stack} \\
+\textbf{Description :} \\
+This project provides all the analytics of virtual labs platform \\
+\textbf{Technologies Used :} Elasticsearch, Logstash, REST API, JSON, python's Flask framework
+
+\textbf{Lab Data Service} \\
+\textbf{Description :} \\
+This project provides all the data about the labs \\
+\textbf{Technologies Used :} python's flask, SQLAlchemy(ORM), JSON, REST API
+
+
+\textbf{Web Portal} \\
+\textbf{Description :} \\
+This application provides interface to conduct outreach activiites \\
+\textbf{Technologies Used :} AngularJS, Flask, REST API, JSON
+
 
 
 %	INTERNSHIP/TRAINING
@@ -171,7 +197,7 @@
 \begin{rSection}{INTERNSHIP/TRAINING}
 
   \begin{rSubsection}
-    {Building RSS Feed Reader}{July 2015 - April 2016}{Major Project}{}
+    {RSS Feed Reader}{July 2015 - April 2016}{}{}
   \item item1
   \item item2
   \item item3
