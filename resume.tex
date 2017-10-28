@@ -73,7 +73,10 @@
   \item Experience in building network cluster models
     
   \item Extensive experience in configuration of LAMP stack,
-    Nginx, DNS, DHCP, Router and other servers
+    Nginx, DNS, DHCP, SSH, Router and other servers
+
+  \item Experience in writing firewall (IPtable) rules for
+    CentOS
     
   \item Experience in LDAP configruation and accounts
     management
@@ -206,6 +209,19 @@
 
 
 
+%	INTERNSHIP/TRAINING
+%----------------------------------------------------------------------------------------
+\begin{rSection}{INTERNSHIP/TRAINING}
+
+  \begin{rSubsection}
+    {RSS Feed Reader}{May 2013 - July 2013}{}{}
+  \item This application is used for fetch the RSS feeds
+    from other websites and aggregates all at one place
+ 
+  \end{rSubsection} 
+
+\end{rSection} 
+
 
 %----------------------------------------------------------------------------------------
 %	PROJECTS
@@ -213,51 +229,60 @@
 
 \textbf{PROJECTS}
 \sectionlineskip
-\hrule
-\textbf{College Cloud Platform} \\
-\textbf{Description :} This project aims to provide the platform through which users can access the
-applications labs without internet connection \\
-\textbf{Technologies Used :} Vagrant, VirtualBox, OpenVZ, Ansible, DNS, DHCP,
+\hrule \textbf{Virtual Labs College Cloud Platform}
+\\ \textbf{Description :} Virtual Labs College Cloud Edition
+is the Portable-Edition for Virtual Labs. It offers the
+offline version of Virtual labs, experiments and theoretical
+content. This edition addresses the lack of internet access
+or poor internet connectivity across different
+institutes/colleges. It results in a very cost-effective
+Learning Management System
+
+\textbf{Technologies
+  Used :} Vagrant, VirtualBox, OpenVZ, Ansible, DNS, DHCP,
 Router and OpenEdx Platform
+\bigskip
+
+\textbf{Auto Deployment Service}
+\\ \textbf{Description :} Auto Deployment Service is a set
+of micro services which is designed to enable the continuous
+deployment of all the Virtual Labs on multiple platform
+providers (e.g AWS EC2)
+
+\textbf{Technologies Used :} Python Flask, Tornado
+frameworks, REST API, JSON, Google Oauth, Boto library
 
 \bigskip
 
-\textbf{Auto Deployment Service} \\
-\textbf{Description :} This project facilitates continuous deployment for all Virtual Labs \\
-\textbf{Technologies Used :} Python's Tornado framework, REST API, JSON, BOTO library
+\textbf{Analytics Service} \\ \textbf{Description :} It is a
+micro service which is built on Flask python framework using
+elements of ELK (Elasticsearch, Logstash and Kibana)
+stack. This service uses REST APIs of elasticsearch database
+where all the server logs have been pushed from mutliple
+servers using Logstash tool. This service is implemented
+with set of REST APIs which queries the data from
+elasticsearch database using REST API calls to satisfy the
+use case requirements\\ \\ \textbf{Technologies Used :}
+Elasticsearch, Logstash, REST API, JSON, python's Flask
+framework
 
 \bigskip
 
-\textbf{Analytics Service using ELK stack} \\
-\textbf{Description :} This project provides all the analytics of virtual labs platform \\
-\textbf{Technologies Used :} Elasticsearch, Logstash, REST API, JSON, python's Flask framework
+\textbf{Lab Data Service} \\ \textbf{Description :} Lab Data
+Service is a micro service which is designed to query all
+the information about the labs in JSON format using REST
+API(s) interface \\ \textbf{Technologies Used :} python
+Flask, SQLAlchemy (ORM), JSON and REST API, Python Unittest
 
 \bigskip
+\textbf{Outreach Web Portal} \\ \textbf{Description :}
+\\ This web portal is designed to provide the features to
+conduct the outreach activites across the country, INDIA and
+to accomidate all the workshop related artifacts, analytics
+at single place. And this portal is build to allow multiple
+login roles \\ \textbf{Technologies Used :} AngularJS,
+Flask, REST API, JSON, SQLAlchemy (ORM), Python unittest
 
-\textbf{Lab Data Service} \\
-\textbf{Description :} This project provides all the data about the labs \\
-\textbf{Technologies Used :} python's flask, SQLAlchemy(ORM), JSON, REST API
-
-\bigskip
-\textbf{Web Portal} \\
-\textbf{Description :} \\
-This application provides interface to conduct outreach activiites \\
-\textbf{Technologies Used :} AngularJS, Flask, REST API, JSON
-
-
-\break
-%	INTERNSHIP/TRAINING
-%----------------------------------------------------------------------------------------
-\begin{rSection}{INTERNSHIP/TRAINING}
-
-  \begin{rSubsection}
-    {RSS Feed Reader}{July 2015 - April 2016}{}{}
-  \item This application is used for fetch the RSS feeds from other websites
-    and aggregates all at one place
- 
-  \end{rSubsection} 
-
-\end{rSection} 
 
 
 %----------------------------------------------------------------------------------------
@@ -268,43 +293,59 @@ This application provides interface to conduct outreach activiites \\
   {Technical Skill Set}
 
   \begin{tabular}{ @{} >{\bfseries}l @{\hspace{6ex}} l }
-    Programming Languages & Python, Shell, Java (Core) \\
-    MVC Frameworks & Flask , Django and AngularJS\\
-    Protocols and APIs & JSON, REST \\
-    Editor tools & GNU Emacs \\
-    Servers & Apache, Nginx, DNS (Bind) and DHCP \\  
-    Automation tools & Ansible, make \\
-    Databases &  MySQL, NoSQL \\
-    Data Analytics Stack & ELK (Elasticsearch, Logstash and Kibana) \\
-    Web Technologies & HTML, CSS, Javascript, JQuery and PHP \\
-    Version Control Systems & Git (Github, Gitlab and Bitbucket) \\
-    Virtualization & Vagrant, VirtualBox, KVM, OpenVZ, Docker \\
-    Cloud Computing & AWS (EC2, VPC) \\
-    Continuous Integration & Travis CI, Jenkins \\
-    Other tools & Redmine, MediaWiki
+    Programming Languages & Python, Shell, Java (Core)
+    \\ MVC Frameworks & Flask and AngularJS\\ Protocols and
+    APIs & JSON, REST \\ Editor tools & GNU Emacs \\ Servers
+    & Apache, Nginx, DNS (Bind), Firewall (IPTable) rules
+    and DHCP \\ Automation tools & Ansible, make
+    \\ Databases & MySQL, NoSQL \\ Data Analytics Stack &
+    ELK (Elasticsearch, Logstash and Kibana) \\ Web
+    Technologies & HTML, CSS, Javascript, JQuery and PHP
+    \\ Version Control Systems & Git (Github, Gitlab and
+    Bitbucket) \\ Virtualization & Vagrant, VirtualBox, KVM,
+    OpenVZ, Docker \\ Cloud Computing & AWS (EC2, VPC)
+    \\ Continuous Integration & Travis CI, Jenkins \\ Other
+    tools & Redmine, MediaWiki
     
   \end{tabular}
 
 \end{rSection}
 
-
+\break
 %----------------------------------------------------------------------------------------
 \begin{rSection}{Other Activities}
-
-\item Attended IEEE conference
-\item Attended several workshops
-\item Volunteer for Election commitee
-\item Attende for conferences and swech campsx
+\begin{itemize}
+\item Participated in IEEE 2015 conference in Warangal, India
+\item Participated for DevCon Hyderabad 2017 conference held
+  at Hyderabad, India
+\item Given several demos for multiple workshop events held
+  at VLEAD, IIIT-H office
+\item Volunteer multiple times for By Election in India
+\item Participated 15 days industry oriented summer camp
+  conducted by Swecha organization
+\item Volunteer in 30 days Virtual Labs integration workshop
+  held at IIT-Gawhathi
+\item Volunteer for Research and Development show case held
+  at IIIT-Hyderabad college
  
-
+\end{itemize}
 \end{rSection}
 
 
-\begin{rSection}{References}
-\item Github : \url{https//github.com/ksripathi}
+\begin{rSection}{PERSONAL PROFILE}
 
-  \item Gitlab : \url { https://gitlab.com/ksripathi}
+  \textbf {DOB :} 25 July 1993\\
+  \textbf {Maritial Status :} Single \\
+  \textbf {Father's Name : } Sudershan \\
+  \textbf {Languages known :} Telugu, English and Hindi \\
 
+\end{rSection}
+
+\begin{rSection}{DECLERATION}
+  {I hereby confirmed that all above mentioned details are
+    correct to the best of my knowledge }
+  \\ \\ \\ \\ \\ \\ \\ \\
+  \textbf {Date} \tab {\tab {\tab {\textbf{Signature}}}}
 \end{rSection}
 
 \end{document}
