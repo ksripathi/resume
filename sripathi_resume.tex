@@ -3,6 +3,7 @@
 %----------------------------------------------------------------------------------------
 \documentclass{resume} % Use the custom resume.cls style
 \usepackage{hyperref} 
+\usepackage{enumitem}
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
 \newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
 \newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
@@ -28,9 +29,9 @@ kammari.sripathi@gmail.com \\
 
 \begin{rSection}{CAREER INTERESTS}
   
-  { Programming, Automation, Virtualization, Cloud Computing,
-    Networking, DevOps and sytem engineering in GNU/Linux system based
-    environments }
+  { Programming, Automation, Micro services, Virtualization, Cloud
+    Computing, Networking, DevOps and sytem engineering in GNU/Linux
+    system based environments }
 
 \end{rSection}
 
@@ -42,53 +43,51 @@ kammari.sripathi@gmail.com \\
   
   \begin{itemize}
     
-  \item 3+ years of experience as a DevOps and System
-    Engineering on multiple flavors of GNU/Linux
+  \item 3+ years of experience as a DevOps and system engineering on
+    multiple flavors of GNU/Linux
 
   \item High ability to work on Agile projects
 
-  \item Hands on experience in developing end-to-end micro
-    services using python Flask, Tornado frameworks
+  \item Full stack development using Python Flask, Tornado, AngularJS,
+    JavaScript, CSS and HTML
+
+  \item Automation using Python and Bash (Shell) programming
+
+  \item Expert in programming using Literate Programming model with
+    GNU Emacs org-mode and Sphinx tools
+
+  \item Proficient in GIT version control system, issue tracking,
+    branching and release management of github projects
+
+  \item Proficient in working with GNU Emacs editor for development
+    environment
     
-  \item Experience in developing web applications using MVC
-    frameworks (AngularJS)
-    
-  \item Proficient in using GIT version control system, issue
-    tracking, branching and release management of github projects
+  \item DevOps using Vagarnt, OpenVZ, VirtualBox, KVM and Docker
 
-  \item Experience in writing automation scripts using
-    Python and Shell
+  \item Experience in AWS cloud services EC2, VPC and knowledge on
+    other services
 
-  \item Expert in developing applications in Literate model using GNU
-    Emacs org-mode and Sphinx
-    
-  \item Experience in Virtualization technologies
-    Vagarnt, OpenVZ, Virtualbox, KVM and Docker
+  \item Experience in working with ELK stack (Elasticsearch, Logstash
+    and Kibana) for log analysis
 
-  \item Experience in working with AWS cloud platform
-    services EC2 and have knowledge on others
-
-  \item Experience in deployment of python and php based application
+  \item Experience in deployment of Python and PHP based application
     on AWS cloud and in other platforms using Auto Deployment
-    services, Jenkins and Travis CI
+    service, Jenkins and Travis CI
 
-  \item Experience in monitoring servers/services using
-    Nagios tool
+  \item Monitoring health status of servers/services of production
+    environment using Nagios tool
     
-  \item Experience in building, automation of network
-    cluster models using Ansible
+  \item Experience in configuration of network cluster (100+ VMs)
+    nodes using Ansible
     
   \item Experience in configuration of LAMP stack,
     Nginx, DNS, DHCP, SSH, Router and other servers
 
   \item Experience in writing firewall (IPtable) rules for
-    Redhat CentOS based servers
+    RHEL CentOS based servers
     
-  \item Experience in LDAP configuration and accounts
-    management
-    
-  \item Experience in working with ELK stack (Elasticsearch,
-    Logstash and Kibana) for log analysis
+  \item Experience in system adminstration tasks which includes Email,
+    DNS, LDAP and other account maintanance
     
   \item Experience in setting up OpenEdx platform, course
     management and customizing APIs.
@@ -107,7 +106,7 @@ kammari.sripathi@gmail.com \\
     {VLEAD, Virtual Labs, IIIT-Hyderabad, India}{Sep 2014 - till date}
     {Project Engineer} {(3+ years)} \hfill 
     \\    
-    \textbf{Roles and Responsibilities:}
+    \textbf{Roles and Responsibilities :}
     \begin{itemize}
       
     \item Develop end to end micro services and web applications for
@@ -117,7 +116,7 @@ kammari.sripathi@gmail.com \\
     \item Deploy the applications/services on test, stage and
       production environment (AWS EC2)
 
-    \item Release and source code mainteanance of Github projects
+    \item Release and source code maintanance of Github projects
 
     \item Log analysis of production servers using ELK stack      
       
@@ -144,88 +143,108 @@ kammari.sripathi@gmail.com \\
 %	PROJECTS
 %----------------------------------------------------------------------------------------
 
-\textbf{PROJECTS UNDERTAKEN}
-\sectionlineskip \\ \hrule
+\textbf{PROJECTS UNDERTAKEN }
+\sectionlineskip \hrule
 
-
-\textbf {1. Virtual Labs College Cloud Platform} (MHRD Govt of India) 
-\begin{itemize}
-\item \textbf{Role : } Automation of network cluster nodes (100+
-VMs) using ansible tool, writing documentation using Emacs Org-mode,
-Sphinx readtheorg
-\item \textbf{Technologies
-  Used :} Vagrant, VirtualBox, OpenVZ, Ansible, DNS, DHCP, Router and
-  OpenEdx Platform
-\item  \textbf{Description :} Virtual Labs College Cloud
-Edition is the Portable-Edition for Virtual Labs. It offers the
-offline version of Virtual labs, experiments and theoretical
-content. This edition addresses the lack of internet access or poor
-internet connectivity across different institutes/colleges. It results
-in a cost-effective Learning Management System
-\end{itemize}
-
-\bigskip
-
-\textbf{2. Auto Deployment Service} (MHRD Govt of India)
-\begin{itemize}
-\item
-\textbf{Role : }
-Implementation of Adapter Modules for Continuous Deployment Service to
-Manage the VMS of AWS EC2, OpenVZ, Writing python Unit test cases and
-configuring Google Oauth authorization
-\item \textbf{Technologies Used :} Python Flask, Tornado frameworks, REST
-  API, JSON, Google Oauth, Boto library
-\item \textbf{Description :} Auto
-Deployment Service is a set of micro services which designed to enable
-the continuous deployment of all the Virtual Labs on multiple platform
-providers (e.g AWS EC2)
-\end{itemize}
-\bigskip
-\textbf{3. Analytics Service} (MHRD Govt of India)
-\begin{itemize}
-
-\item \textbf{Role : } Implementation of all phases in SDLC model
-\item \textbf{Technologies Used :} Elasticsearch, Logstash, REST API,
-  JSON, python's Flask framework
-\item \textbf{Description :} It is a micro
-service which built on Flask python framework using elements of ELK
-(Elasticsearch, Logstash and Kibana) stack. This service consumes REST
-APIs of elasticsearch database where all the server logs have been
-pushed from mutliple servers using Logstash tool. This service
-implemented with set of REST APIs which queries the data from
-elasticsearch database using REST API calls to satisfy the use case
-requirements
-\end{itemize}
-
-\bigskip
-
-\textbf {4. Lab Data Service} (MHRD Govt of India)
-\begin{itemize}
-\item \textbf{Role : } Writing
-unit test cases, implementation of database models, building REST APIs
-and service deployment on multiple environments \item \textbf{Technologies Used :} python Flask, SQLAlchemy (ORM),
-JSON and REST API, Python Unittest \item \textbf{Description :} Lab Data
-Service is a micro service which designed to query all the information
-about the labs in JSON format using REST API(s) interface
-\end{itemize}
-
-
+\begin{enumerate}[label=\bfseries\arabic*]
+\item \textbf {Virtual Labs College Cloud Platform} (MHRD Govt of India)
+  \begin{enumerate}
     
-  \end{rSubsection}
+  \item \textbf{Roles and Responsibilites }
+    \begin{enumerate}
+    \item Configuration of network cluster nodes (100+
+      VMs) using Ansible tool
+    \item Writing model using Literate Programming with GNU Emacs
+      org-mode, Sphinx readtheorg
+    \item Implementation of Firewall (IPTable) rules for nodes in the
+      cluster
+    \end{enumerate}
+    
+  \item \textbf{Description } \\ \blank{2 cm} Virtual Labs College
+    Cloud Edition is the Portable-Edition for Virtual Labs. It offers
+    the offline version of Virtual labs, experiments and theoretical
+    content. This edition addresses the lack of internet access or
+    poor internet connectivity across different
+    institutes/colleges. It results in a cost-effective Learning
+    Management System
+    
+  \item \textbf{Technologies Used } Vagrant, VirtualBox, OpenVZ,
+    Ansible, DNS, DHCP, Router and OpenEdx Platform
+  \end{enumerate}
+
+\item \textbf {Auto Deployment Service} (MHRD Govt of India)
+  \begin{enumerate}
+    
+  \item \textbf{Roles and Responsibilites}
+    \begin{enumerate}
+    \item Implementation of Adapter Modules to manage the VMS of AWS
+      EC2, OpenVZ
+    \item Implementation of Python Unit test cases
+    \item Provision and configure the service on test, stage and
+      production environments
+    \item Package and publishing service in vagrant boxes
+    \item Owns the Github source code
+    \item Bug fixing, issue tracking and release management of Github
+      repository
+    \item Configuring Google Oauth authentication to the service
+    \end{enumerate}
+    
+  \item \textbf{Technologies Used } Python Flask, Tornado frameworks, REST
+    API, JSON, Google Oauth, Boto library
+  \item \textbf{Description } \\
+    \blank{2 cm}Auto Deployment Service is a set of micro services which designed to enable
+    the continuous deployment of all the Virtual Labs on multiple platform
+    providers (e.g AWS EC2)
+  \end{enumerate}
+
+\item \textbf{Analytics Service} (MHRD Govt of India)
+  \begin{enumerate}
+  \item \textbf{Roles and Responsibilities }
+    \begin{enumerate}
+    \item Provision and configure ELK stack on test, stage and
+      production environment
+    \item Writing Elasticsearch queries to fetch log analytics in JSON
+      format
+    \item Setup and configure Logstash client tool on multiple server
+      VMs
+    \item Writing pattern matches for different log patterns for
+      Logstash tool to push the data into elasticsearch database
+    \item Implementation of REST API(s) interface on top of
+      Elasticsearch service
+    \item Service deployment on test, stage and production environments
+    \end{enumerate}
+  \item \textbf{Technologies Used } Elasticsearch, Logstash, REST API,
+    JSON, Python's Flask framework
+  \item \textbf{Description } \\
+    \blank{2 cm} It is a micro service which built on Flask Python framework using elements of ELK
+    (Elasticsearch, Logstash and Kibana) stack. This service consumes REST
+    APIs of elasticsearch database where all the server logs have been
+    pushed from mutliple servers using Logstash tool. This service
+    implemented with set of REST APIs which queries the data from
+    elasticsearch database using REST API calls to satisfy the use case
+    scenarios
+  \end{enumerate}
+
+\item \textbf {Lab Data Service} (MHRD Govt of India)
+  \begin{enumerate}
+  \item \textbf{Roles and Responsibilites }
+    \begin{enumerate}
+    \item Writing  unit test cases
+    \item Implementation of database models
+    \item Building REST APIs
+    \item Service deployment on multiple environments
+    \end{enumerate}
+  \item \textbf{Technologies Used } Python Flask, SQLAlchemy (ORM),
+    JSON and REST API, Python Unittest
+  \item \textbf{Description } \\
+    \blank{2 cm} Lab Data Service is a micro service which designed to query all the information
+    about the labs in JSON format using REST API(s) interface
+  \end{enumerate}
+\end{enumerate}
+\end{rSubsection}
 
 \end{rSection}
 
-
-%	INTERNSHIP/TRAINING
-%----------------------------------------------------------------------------------------
-\begin{rSection}{INTERNSHIP/TRAINING}
-  \begin{rSubsection}
-  {Spoorthi Communications Pvt Ltd, Hyderabad} {May 2013 - July
-    2013}{Media10}{Summer Intern (2 months)}
-  \textbf{Project :} RSS Feed Reader
-  \end{rSubsection} 
-
-\end{rSection} 
 
 
 %----------------------------------------------------------------------------------------
@@ -250,6 +269,19 @@ about the labs in JSON format using REST API(s) interface
 
 \end{rSection}
 
+
+%	INTERNSHIP/TRAINING
+%----------------------------------------------------------------------------------------
+\begin{rSection}{INTERNSHIP/TRAINING}
+  \begin{rSubsection}
+  {Spoorthi Communications Pvt Ltd, Hyderabad} {May 2013 - July
+    2013}{Media10}{Summer Intern (2 months)}
+  \textbf{Project :} RSS Feed Reader
+  \end{rSubsection} 
+
+\end{rSection} 
+
+\break
 
 %----------------------------------------------------------------------------------------
 %	TECHNICAL STRENGTHS SECTION
