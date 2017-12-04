@@ -1,9 +1,14 @@
-# resume
-* Pre requisites for Ubuntu/Debian
+* Introduction
+  This repository contains my updated profile written in
+  =LateX=
+
+* How to build profile ??
+** Pre requisites for Ubuntu/Debian
+   
 #+BEGIN_EXAMPLE
 sudo apt-get install texlive-full
 #+END_EXAMPLE
-* Steps
+** Steps
   1. Clone the repository & change directory
      #+BEGIN_EXAMPLE
      git clone https://github.com/ksripathi/resume.git
@@ -11,6 +16,6 @@ sudo apt-get install texlive-full
      #+END_EXAMPLE
   2. Compile the =.tex= files
      #+BEGIN_EXAMPLE
-     pdflatex resume.tex
+     pdflatex sripathi_resume.tex
      #+END_EXAMPLE
-  3. Above step(3) should generate =resume.pdf= file
+  3. Above step(3) should generate =sripathi_resume.pdf= file
