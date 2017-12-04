@@ -2,6 +2,7 @@
 %	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
 %----------------------------------------------------------------------------------------
 \documentclass{resume} % Use the custom resume.cls style
+\usepackage[normalem]{ulem}
 \usepackage{hyperref} 
 \usepackage{enumitem}
 \usepackage[left=0.4 in,top=0.4in,right=0.4 in,bottom=0.4in]{geometry} % Document margins
@@ -21,7 +22,7 @@ kammari.sripathi@gmail.com \\
 \blank{5 cm}
 {Github Profile : }
 \url{https://github.com/ksripathi}
-\sectionlineskip \\
+\sectionlineskip \hfill
 
 %----------------------------------------------------------------------------------------
 %	OBJECTIVE
@@ -29,8 +30,8 @@ kammari.sripathi@gmail.com \\
 
 \begin{rSection}{CAREER INTERESTS}
   
-  { Programming, Automation, Micro services, Virtualization, Cloud
-    Computing, Networking, DevOps and System Engineering in GNU/Linux
+  { Programming, Automation, Micro services, Virtualization,
+    Networking, DevOps and System Engineering in GNU/Linux
     system based environments }
 
 \end{rSection}
@@ -62,7 +63,8 @@ kammari.sripathi@gmail.com \\
   \item Proficient in working with GNU Emacs editor for development
     environment
     
-  \item DevOps using Vagarnt, OpenVZ, VirtualBox, KVM and Docker
+  \item DevOps using Vagarnt, OpenVZ, VirtualBox, KVM,
+    Docker and Docker Swarm
 
   \item Experience in AWS cloud services EC2, VPC and knowledge on
     other services
@@ -74,20 +76,21 @@ kammari.sripathi@gmail.com \\
     on AWS cloud and in other platforms using Auto Deployment
     service, Jenkins and Travis CI
 
-  \item Monitoring health status of servers/services of production
-    environment using Nagios tool
+  \item Monitoring health status and maintenance of
+    servers/services (100+ VMs) of production environment
+    using Nagios tool
     
-  \item Experience in configuration of network cluster (100+ VMs)
+  \item Experience in configuration of network cluster (10+ VMs)
     nodes using Ansible
     
   \item Experience in configuration of LAMP stack,
     Nginx, DNS, DHCP, SSH, Router and other servers
 
-  \item Experience in writing firewall (IPtable) rules for
-    RHEL CentOS based servers
-    
-  \item Experience in system administration tasks which includes
-    Email, DNS, LDAP and other account maintenance
+  \item Experience in writing firewall (IPTable) rules for
+    RHEL CentOS servers
+  \item Experience in system administration tasks which
+    includes maintenance of Email, DNS, LDAP, Github and
+    other accounts
     
   \item Experience in setting up OpenEdx platform, course
     management and customizing APIs.
@@ -104,47 +107,62 @@ kammari.sripathi@gmail.com \\
 
    \begin{rSubsection}
     {VLEAD, Virtual Labs, IIIT-Hyderabad, India}{Sep 2014 - till date}
-    {Project Engineer} {(3+ years)} \hfill 
-    \\    
-    \textbf{Roles and Responsibilities :}
-    \begin{itemize}
+    {Project Engineer} {(3+ years)}
+
+    \textbf{Description
+      :} VLEAD, Virtual Labs Engineering and Architecture Division,
+    based in IIIT-Hyderabad campus, is one of the several teams
+    working on the Virtual Labs project which initiated by the MHRD
+    Govt of India. VLEAD is mandate to design and architect the
+    implementation framework for Virtual Labs, providing all kinds of
+    infrastructure support and services to manage the 100+ lab
+    applications. VLEAD team from IIIT Hyderabad has taken the
+    responsibility of being the Central Engineering Team in hosting
+    the lab applications and providing infrastructure service and
+    support to other engineering teams from various top most
+    institutes in India (IITs and NITs) and VLEAD is currently
+    maintaining cluster of 100+ VMS on different cloud providers (AWS
+    EC2) \\
+    \break
+    %% \textbf{Roles and Responsibilities :}
+    %% \begin{itemize}
       
-    \item Develop end to end micro services and web applications for
-      Virtual Labs project needs using literate programming model
-      (using GNU Emacs org-mode, Sphinx)
+    %% \item Develop end to end micro services and web applications for
+    %%   Virtual Labs project needs using literate programming model
+    %%   (using GNU Emacs org-mode, Sphinx)
 
-    \item Deploy the applications/services on test, stage and
-      production environment (AWS EC2)
+    %% \item Deploy the applications/services on test, stage and
+    %%   production environment (AWS EC2)
 
-    \item Release and source code maintenance of Github projects
+    %% \item Release and source code maintenance of Github projects
 
-    \item Log analysis of production servers using ELK stack      
+    %% \item Log analysis of production servers using ELK stack      
       
-    \item Monitor and maintenance of test, stage and production
-      servers (100+ VMs)
+    %% \item Monitor and maintenance of test, stage and production
+    %%   servers (100+ VMs)
       
-    \item Packaging servers/services using vagrant,
-      docker and VirtualBox
+    %% \item Packaging servers/services using vagrant,
+    %%   docker and VirtualBox
 
-    \item Configuration of CI and CD tools
+    %% \item Configuration of CI and CD tools
       
-    \item Writing backup, restore and migration of databases scripts
+    %% \item Writing backup, restore and migration of databases scripts
 
-    \item Administration of Github organization repositories,
-      email, LDAP and DNS records.
+    %% \item Administration of Github organization repositories,
+    %%   email, LDAP and DNS records.
 
-    \item Giving technical support to the team members
-    \end{itemize}
+    %% \item Giving technical support to the team members
+    %% \end{itemize}
 
-    \hfill
+    %% \hfill
 
 
 %----------------------------------------------------------------------------------------
 %	PROJECTS
 %----------------------------------------------------------------------------------------
 
-\textbf{PROJECTS UNDERTAKEN }
-\sectionlineskip \hrule
+\uline {\textbf{Projects Undertaken :}}
+\sectionlineskip
 
 \begin{enumerate}[label=\bfseries\arabic*]
 \item \textbf {Virtual Labs College Cloud Platform} (MHRD Govt of India)
@@ -152,7 +170,7 @@ kammari.sripathi@gmail.com \\
     
   \item \textbf{Roles and Responsibilities }
     \begin{enumerate}
-    \item Configuration of network cluster nodes (100+
+    \item Configuration of network cluster nodes (10+
       VMs) using Ansible tool
     \item Model implementation using Literate Programming with GNU Emacs
       org-mode, Sphinx readtheorg
@@ -189,8 +207,9 @@ kammari.sripathi@gmail.com \\
     \item Configuring Google Oauth authentication to the service
     \end{enumerate}
     
-  \item \textbf{Technologies Used } Python Flask, Tornado frameworks, REST
-    API, JSON, Google Oauth, Boto library
+  \item \textbf{Technologies Used } Python Flask, Tornado
+    frameworks, REST API, JSON, Google Oauth and Python Boto
+    library
   \item \textbf{Description } \\
     \blank{2 cm}Auto Deployment Service is a set of micro services which designed to enable
     the continuous deployment of all the Virtual Labs on multiple platform
@@ -215,42 +234,66 @@ kammari.sripathi@gmail.com \\
     \item Service deployment on test, stage and production environments
     \end{enumerate}
   \item \textbf{Technologies Used } Elasticsearch, Logstash, REST API,
-    JSON, Python's Flask framework
-  \item \textbf{Description } \\
-    \blank{2 cm} It is a micro service which built on Flask Python framework using elements of ELK
-    (Elasticsearch, Logstash and Kibana) stack. This service consumes REST
-    APIs of elasticsearch database where all the server logs have been
-    pushed from multiple servers using Logstash tool. This service
-    implemented with set of REST APIs which queries the data from
-    elasticsearch database using REST API calls to satisfy the use case
-    scenarios
+    JSON and Python Flask framework
+  \item \textbf{Description } \\ \blank{2 cm} It is a micro
+    service which built in Flask Python framework using
+    elements of ELK (Elasticsearch, Logstash and Kibana)
+    stack. This service consumes REST APIs of elasticsearch
+    database and exposes set of REST APIs to satisfy the use
+    case scenarios
   \end{enumerate}
 
 \item \textbf {Lab Data Service} (MHRD Govt of India)
   \begin{enumerate}
   \item \textbf{Roles and Responsibilities }
     \begin{enumerate}
-    \item Writing  Python unit test cases
     \item Implementation of Database models
     \item Data collection from various sources
     \item Writing database migration, backup and restore scripts using
       Python
-    \item Building REST APIs
-    \item Writing REST API documentation using GNU Emacs org-mode,
-      sphinx readtheorg
+    \item Implementation of REST API(s) and documentation
+      using GNU Emacs org-mode, sphinx readtheorg
     \item Service deployment on multiple environments
     \end{enumerate}
-  \item \textbf{Technologies Used } Python Flask, SQLAlchemy (ORM),
-    JSON and REST API, Python Unittest
-  \item \textbf{Description } \\
-    \blank{2 cm} Lab Data Service is a micro service which designed to query all the information
-    about the labs in JSON format using REST API(s) interface
+  \item \textbf{Technologies Used } Python Flask, SQLAlchemy
+    (ORM), JSON and REST API and Python Unittest
+  \item \textbf{Description } \\ \blank{2 cm} Lab Data
+    Service is a micro service which designed to perform
+    CRUD operations on Labs data using REST API(s) interface
+    and JSON as data exchange protocal
   \end{enumerate}
 \end{enumerate}
 \end{rSubsection}
 
 \end{rSection}
 
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}
+  {Technical Skills}
+
+  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l }
+    Operation Systems & GNU/Linux and Windows \\
+    Programming Languages & Python (Flask), BASH Shell, C and Java (Core)
+    \\ Web Technologies & AngularJS, DOM, HTML, CSS,
+    JavaScript, JQuery and PHP\\ Protocols and
+    APIs & JSON, REST \\ Editor tools & GNU Emacs \\ Servers
+    & Apache, Nginx, DNS (Bind), Firewall (IPTable) rules
+    and DHCP \\ Automation tools & Ansible, Make
+    \\ Databases & MySQL, NoSQL \\ Data Analytics Stack &
+    ELK (Elasticsearch, Logstash and Kibana) \\
+    Version Control Systems & Git (Github, Gitlab and
+    Bitbucket) \\ Virtualization & Vagrant, VirtualBox, KVM,
+    OpenVZ and Docker \\ Cloud Computing & AWS (EC2, VPC)
+    \\ Continuous Integration & Travis CI and Jenkins \\ Other
+    tools & Redmine, MediaWiki
+    
+  \end{tabular}
+
+\end{rSection}
 
 
 %----------------------------------------------------------------------------------------
@@ -264,7 +307,7 @@ kammari.sripathi@gmail.com \\
   \\
   Rajiv Gandhi University Of Knowledge Technologies,  CGPA: 7.68/10.00  
   
-  {\bf PUC (10+2) in M.bi.P.C} \hfill {Sept 2008 - May 2010}
+  {\bf PUC (10+2) in M.Bi.P.C} \hfill {Sept 2008 - May 2010}
   \\
   IIIT-IDUPULAPAYA
   \\
@@ -282,77 +325,49 @@ kammari.sripathi@gmail.com \\
   \begin{rSubsection}
   {Spoorthi Communications Pvt Ltd, Hyderabad} {May 2013 - July
     2013}{Media10}{Summer Intern (2 months)}
-  \textbf{Project :} RSS Feed Reader
+  \textbf{Project Undertaken:} RSS Feed Reader
   \end{rSubsection} 
 
 \end{rSection} 
 
-\break
+%% \begin{rSection}{PERSONAL PROFILE}
+%%   \textbf {DOB :} 25 July 1993\\
+%%   \textbf {Marital Status :} Single \\
+%%   \textbf {Father's Name : } Sudershan \\
+%%   \textbf {Languages known :} Telugu, English and Hindi \\
+%%   \textbf {Address : } H.NO 1-3-235 TO 236 Chandishwari Nilayam, Kawadiguda, Hyderabad, 500080
+%% \end{rSection}
 
-%----------------------------------------------------------------------------------------
-%	TECHNICAL STRENGTHS SECTION
-%----------------------------------------------------------------------------------------
+%% \begin{rSection}{SKILLS}
+%%   \begin{itemize}
+%%   \item Quick learner
+%%   \item Excellent debugging skills
+%%   \item Individual and team player
+%%   \item Dedication towards deliverables at right time
+%%   \item Good Professional
+%%   \item Good Interpersonal Skills
 
-\begin{rSection}
-  {Technical Skills}
+%%   \end{itemize}
 
-  \begin{tabular}{ @{} >{\bfseries}l @{\hspace{2ex}} l }
-    Programming Languages & Python, Shell, C, Java (Core)
-    \\ MVC Frameworks & Flask and AngularJS\\ Protocols and
-    APIs & JSON, REST \\ Editor tools & GNU Emacs \\ Servers
-    & Apache, Nginx, DNS (Bind), Firewall (IPTable) rules
-    and DHCP \\ Automation tools & Ansible, make
-    \\ Databases & MySQL, NoSQL \\ Data Analytics Stack &
-    ELK (Elasticsearch, Logstash and Kibana) \\ Web
-    Technologies & HTML, CSS, Javascript, JQuery and PHP
-    \\ Version Control Systems & Git (Github, Gitlab and
-    Bitbucket) \\ Virtualization & Vagrant, VirtualBox, KVM,
-    OpenVZ, Docker \\ Cloud Computing & AWS (EC2, VPC)
-    \\ Continuous Integration & Travis CI, Jenkins \\ Other
-    tools & Redmine, MediaWiki
-    
-  \end{tabular}
+%% \end{rSection}
 
-\end{rSection}
-
-\begin{rSection}{PERSONAL PROFILE}
-  \textbf {DOB :} 25 July 1993\\
-  \textbf {Marital Status :} Single \\
-  \textbf {Father's Name : } Sudershan \\
-  \textbf {Languages known :} Telugu, English and Hindi \\
-
-\end{rSection}
-
-\begin{rSection}{SKILLS}
-  \begin{itemize}
-  \item Quick learner
-  \item Excellent debugging skills
-  \item Individual and team player
-  \item Dedication towards deliverables at right time
-  \item Good Professional
-  \item Good Interpersonal Skills
-
-  \end{itemize}
-
-\end{rSection}
-
-%----------------------------------------------------------------------------------------
-\begin{rSection}{Other Activities}
-\begin{itemize}
-\item Participated in IEEE 2015 conference in Warangal, India
-\item Participated for DevCon Hyderabad 2017 conference held
-  at Hyderabad, India
-\item Given several demos for multiple workshop events held
-  at VLEAD, IIIT-H office
-\item Volunteer multiple times for By Election in India
-\item Participated 15 days industry oriented summer camp
-  conducted by Swecha organization
-\item Volunteer in 30 days Virtual Labs integration workshop
-  held at IIT-Gawhathi
-\item Volunteer for Research and Development show case held
-  at IIIT-Hyderabad college
+%% %----------------------------------------------------------------------------------------
+%% \begin{rSection}{Other Activities}
+%% \begin{itemize}
+%% \item Participated in IEEE 2015 conference in Warangal, India
+%% \item Participated for DevCon Hyderabad 2017 conference held
+%%   at Hyderabad, India
+%% \item Given several demos for multiple workshop events held
+%%   at VLEAD, IIIT-H office
+%% \item Volunteer multiple times for By Election in India
+%% \item Participated 15 days industry oriented summer camp
+%%   conducted by Swecha organization
+%% \item Volunteer in 30 days Virtual Labs integration workshop
+%%   held at IIT-Gawhathi
+%% \item Volunteer for Research and Development show case held
+%%   at IIIT-Hyderabad college
  
-\end{itemize}
-\end{rSection}
+%% \end{itemize}
+%% \end{rSection}
 
 \end{document}
